@@ -10,6 +10,12 @@ const GlobalStyles = createGlobalStyle`
     font-weight: normal;
   }
   html {
+    --gradient: linear-gradient(
+      25deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
     --red: #ff0000;
     --black: #393939;
     --grey: #3A3A3A;
@@ -20,6 +26,7 @@ const GlobalStyles = createGlobalStyle`
     --maxWidth: 1000px;
     --bs: 0 12px 24px 0 rgba(0, 0, 0, 0.09);
     box-sizing: border-box;
+    font-size: 10px;
   }
   *, *:before, *:after {
     box-sizing: inherit;
