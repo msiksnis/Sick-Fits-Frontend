@@ -1,7 +1,9 @@
+import { set } from "nprogress";
+import CreateProduct from "../components/CreateProduct";
 import Page from "../components/Page";
 
 function SellPage() {
-  return <h1>SellPage</h1>;
+  return <CreateProduct />;
 }
 
 export default SellPage;
