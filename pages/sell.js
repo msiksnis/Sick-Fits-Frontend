@@ -1,6 +1,6 @@
-import { set } from "nprogress";
+// import { set } from "nprogress";
 import CreateProduct from "../components/CreateProduct";
-import Page from "../components/Page";
+// import Page from "../components/Page";
 
 function SellPage() {
   return <CreateProduct />;
