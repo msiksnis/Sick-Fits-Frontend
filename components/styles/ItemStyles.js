@@ -18,6 +18,9 @@ const ItemStyles = styled.div`
     flex-grow: 1;
     padding: 0 3rem;
     font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .buttonList {
     display: grid;
@@ -31,6 +34,7 @@ const ItemStyles = styled.div`
       border: 0;
       font-size: 1rem;
       padding: 1rem;
+      cursor: pointer;
     }
   }
 `;
